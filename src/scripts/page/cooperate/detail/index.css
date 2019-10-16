@@ -1,0 +1,99 @@
+.header_title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 20px;
+    background: #fff;
+}
+
+.content {
+    margin: 10px 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+.step1_item {
+    text-align: center;
+    margin: 20px;
+    /*display: flex;*/
+}
+
+/*.step1_item span {*/
+    /*flex: 0 0 30%;*/
+    /*text-align: right;*/
+/*}*/
+.step1_notice {
+    text-align: center;
+    /*display: flex;*/
+    color: red;
+    font-size: 14px;
+}
+
+/*.step1_notice span {*/
+    /*flex: 0 0 56%;*/
+    /*text-align: right;*/
+/*}*/
+
+.form_title {
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.form_part {
+    /* border-bottom: 1px solid #f0f2f5; */
+    margin-bottom: 30px;
+}
+
+.step3 {
+    text-align: center;
+}
+
+.step3 p {
+    line-height: 40px;
+}
+
+.base_info {
+    /* margin: 0 -20px 10px -20px;
+    padding: 0 20px 15px 20px; */
+    /* border-bottom: 1px solid #eee; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.base_info span {
+    display: inline-block;
+    /* margin-right: 20px; */
+}
+
+.logs {
+    /* padding-top: 30px; */
+    padding: 20px;
+    margin: 20px -20px 0 -20px;
+    border-top: 5px solid #f0f2f5;
+}
+
+.form_title {
+    padding: 0 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.memo {
+    font-size: 10px;
+}
+
+.activiti_img{
+    background-color: #fff;
+    margin: -33% 0 0 -90%;
+    position: absolute;
+}
+
+.break_word {
+    word-break: break-word;
+}

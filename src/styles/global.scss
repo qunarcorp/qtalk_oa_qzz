@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1024px;
+    font-size: 16px;
+}
+
+#app {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+h1 {
+    margin: 0px 0 20px;
+    font-weight: normal;
+}
+
+.ant-menu a {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.ant-menu-item-selected a:hover,
+.ant-menu-item-selected a {
+    color: rgba(255, 255, 255, 1);
+}
+
+a:focus {
+    text-decoration: none!important;
+}
+.templateColumn{
+    min-width: 120px;;
+}
+.ant-btn-no-border {
+    border: 0;
+    padding: 0;
+}

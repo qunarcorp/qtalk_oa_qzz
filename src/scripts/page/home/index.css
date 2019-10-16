@@ -1,0 +1,105 @@
+.wrap {
+    font-size: 14px;
+}
+.header {
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    background: #fff;
+    display: flex;
+}
+.header img {
+    width: 60px;
+    height: 60px;
+    flex: 0 0 60px;
+    border-radius: 50%;
+}
+.user {
+    flex: 1;
+    margin-left: 30px;
+}
+.user_job {
+    color: #999;
+}
+.user_qt {
+    font-size: 14px;
+    font-weight: bold;
+}
+.count {
+    flex: 0 0 80px;
+}
+.count_number {
+    font-size: 20px;
+    color: #2c3e50;
+}
+.cont {
+    display: flex;
+    padding: 0 10px;
+}
+.left {
+    flex: 1;
+    margin-right: 50px;
+}
+.right {
+    flex: 0 0 500px;
+}
+.list {
+    margin-bottom: 20px;
+    background: #fff;
+}
+.nav {
+    margin-bottom: 20px;
+    background: #fff;
+}
+.message {
+    background: #fff;
+}
+.message_item {
+    margin: 0 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    line-height: 25px;
+}
+.approve {
+    background: #fff;
+}
+.title {
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.links {
+    display: flex;
+    padding: 20px 10px;
+}
+.links a {
+    flex: 1;
+    font-size: 14px;
+    /* color: #2c3e50; */
+    text-align: center;
+}
+.approve_cont {
+    padding: 0 20px;
+}
+.approve_item {
+    display: inline-block;
+    line-height: 40px;
+    width: 50%;
+    font-size: 14px;
+    color: #2c3e50;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    padding-left: 10px;
+}
+.message_time {
+    color: #999;
+    padding: 0px 47px;
+}
+.dynamic_color {
+    color: #2c3e50;
+}
+.title_avatar {
+    margin-right: 15px;
+}

@@ -1,0 +1,17 @@
+:global(.editable-cell-value-wrap) {
+    /*使内容区有了宽度*/
+    padding: 5px 12px;  
+    cursor: pointer;
+  }
+  
+:global(.editable-row:hover .editable-cell-value-wrap) {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+} 
+.button_group {
+    margin-top: 16px;
+}
+.add {
+    margin-left: 16px;
+}

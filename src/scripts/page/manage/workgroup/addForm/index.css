@@ -1,0 +1,12 @@
+.input {
+  width: 280px;
+  margin-left: 20px;
+}
+.button_box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.margin_left {
+  margin-left: 20px;
+}

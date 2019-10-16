@@ -1,0 +1,24 @@
+.header_title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 20px;
+    background: #fff;
+}
+.card_title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.content {
+    margin: 10px 20px;
+    padding: 20px;
+    background: #fff;
+    min-height: 600px;
+}
+.button_add {
+    font-weight: bolder;
+}
+.button_place {
+    margin-left: 15%;
+}

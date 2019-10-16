@@ -1,0 +1,15 @@
+.input {
+  width: 280px;
+  margin-left: 20px;
+}
+/* .line {
+  border-bottom: 1px solid #e8e8e8;
+} */
+.button_box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.margin_left {
+  margin-left: 20px;
+}

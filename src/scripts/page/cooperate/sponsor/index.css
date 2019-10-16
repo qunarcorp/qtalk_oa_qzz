@@ -1,0 +1,63 @@
+.header_title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 20px;
+    background: #fff;
+}
+.count {
+    display: flex;
+    margin: 10px 20px;
+    padding: 10px 0;
+    background: #fff;
+}
+.count_item {
+    flex: 1;
+    text-align: center;
+}
+.list {
+    margin: 10px 20px;
+    padding: 10px;
+    background: #fff;
+}
+.search {
+    margin: 15px 0;
+}
+.filter {
+    margin: 15px 0;
+}
+.title_box {
+    display: flex;
+    align-items: center;
+}
+.title_avatar {
+    margin-right: 15px;
+}
+.agree {
+    color: #52c41a;
+}
+.reject {
+    color: #f5222d;
+}
+.process {
+    color: #fa8c16;
+    word-break: break-all;
+    max-width: 300px;
+}
+.column_display {
+    word-break: break-all;
+}
+.normal {
+    color: rgba(17, 26, 46, 0.7);
+}
+.activiti_img{
+    background-color: #fff;
+    margin: -33% 0 0 -90%;
+    position: absolute;
+}
+.operation_div div{
+    text-align: center;
+}
+.operation_div div{
+    padding-top: 4px;
+}

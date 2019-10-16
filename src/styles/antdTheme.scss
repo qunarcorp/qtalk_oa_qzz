@@ -1,0 +1,57 @@
+
+.ant-layout {
+    height: inherit;
+}
+
+.ant-layout-header {
+    height: 45px;
+}
+
+.ant-menu-horizontal {
+    height: 47px;
+    line-height: 47px;
+}
+
+.ant-menu-item {
+    height: 45px;
+}
+
+.ant-tabs.ant-tabs-card {
+    &>.ant-tabs-bar {
+        border: 1px solid #e8e8e8;
+        margin: 0;
+        .ant-tabs-tab {
+            border: none;
+            border-radius: 0;
+            background: none;
+            height: 39px;
+            padding: 0 25px;
+            border-top: 2px solid transparent;
+            &.ant-tabs-tab-active {
+                background: #fff;
+                border-top: 2px solid #1890ff;
+            }
+        }
+    }
+    .ant-tabs-content {
+        padding: 20px;
+    }
+}
+
+.ant-table {
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    border-bottom: 0 none;
+}
+.slim .ant-modal-content .ant-form-item,
+.slim .ant-modal-content .ant-form label{
+    margin-bottom: 0px;
+}
+.ant-popover-inner-content {
+    // padding: 0;
+}
+.ant-form-item-label label{
+    word-break: break-all;
+    word-wrap: break-word;
+    // white-space: pre-wrap;
+}

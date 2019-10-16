@@ -1,0 +1,30 @@
+.header_title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 0 20px;
+  background: #fff;
+}
+.content {
+  margin: 10px 20px;
+  padding: 20px;
+  background: #fff;
+}
+.search {
+  margin: 15px 0;
+}
+.button_search {
+  margin-right: 10px;
+}
+.button_add {
+  float: right;
+  width: 150px;
+  font-weight: bold;
+}
+.column_break_word {
+  word-break: break-all;
+}
+.input_search {
+  width: 400px;
+  margin-right: 10px;
+}

@@ -1,0 +1,16 @@
+.input_search {
+    width: 400px;
+    margin-right: 10px;
+}
+.input_table_cell {
+    width: 100%;
+}
+.input_approve{
+    width: 390px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.input_memo_modal{
+    width: 385px;
+    margin-right: 10px;
+}

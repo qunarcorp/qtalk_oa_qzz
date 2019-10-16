@@ -1,0 +1,19 @@
+.input {
+    width: 280px;
+    margin-left: 20px;
+}
+
+.button_box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.margin_left {
+    margin-left: 20px;
+}
+
+.disabled_display {
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: normal!important;
+}
+

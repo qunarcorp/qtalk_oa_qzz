@@ -1,0 +1,9 @@
+.login {
+    text-align: center;
+    height: 100%;
+    padding-top: 150px;
+}
+.login_form {
+    width: 500px;
+    margin: 0 auto;
+}

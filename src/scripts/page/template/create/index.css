@@ -1,0 +1,43 @@
+.form_title {
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.form_part {
+    /* border-bottom: 1px solid #f0f2f5; */
+    margin-bottom: 30px;
+}
+.create {
+    margin: 10px 20px;
+    padding: 20px;
+    background: #fff;
+}
+.form {
+    margin: 20px -15px;
+    padding: 20px 15px;
+    border: 1px dashed #eee;
+}
+.textFloat {
+    float: left;
+    width: 50%;
+}
+
+.textCondition {
+    width: 100%;
+}
+
+.form_small_font {
+    font-size: smaller;
+}
+
+.switch_button {
+    margin-left: 10px;
+    margin-right: 35px;
+}
+
+.form_item {
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+}

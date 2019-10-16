@@ -1,0 +1,41 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "extends": [
+        "plugin:react/recommended"
+    ],
+    "globals": {
+        "Promise": false,
+        "jQuery": false
+    },
+    "rules": {
+        "strict": 0,
+        "semi": 2,
+        "no-with": "error",
+        "no-array-constructor": "error",
+        "no-debugger": "error",
+        "no-sequences": "error",
+        "no-dupe-args": "error",
+        "no-inner-declarations": "error",
+        "no-unreachable": "error",
+        "no-octal": "error",
+        "no-dupe-keys": "error",
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "no-unused-vars": 2
+    }
+}

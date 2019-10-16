@@ -1,0 +1,105 @@
+export const navList = [{
+  name: '首页',
+  key: '/home',
+  url: '/home',
+  icon: 'home',
+  children: [{
+    name: '工作台',
+    key: '/home/work',
+    url: '/home/work',
+  }],
+}, {
+  name: '协同工作',
+  key: '/cooperate',
+  url: '/cooperate',
+  icon: 'laptop',
+  children: [{
+    name: '发起申请',
+    key: '/cooperate/create',
+    url: '/cooperate/create',
+  }, {
+    name: '我发起的',
+    key: '/cooperate/sponsor',
+    url: '/cooperate/sponsor',
+  }, {
+    name: '待我审批的',
+    key: '/cooperate/unapproved',
+    url: '/cooperate/unapproved',
+  }, {
+    name: '我已审批的',
+    key: '/cooperate/approved',
+    url: '/cooperate/approved',
+  }, {
+    name: '知会我的',
+    key: '/cooperate/notified',
+    url: '/cooperate/notified',
+  }],
+}, {
+  name: '用户信息',
+  key: '/user',
+  url: '/user',
+  icon: 'user',
+  children: [{
+    name: '个人信息',
+    key: '/user/userInfo',
+    url: '/user/userInfo',
+  }, {
+    name: '密码修改',
+    key: '/user/editPassword',
+    url: '/user/editPassword',
+  }],
+}, {
+  name: '流程管理',
+  key: '/manage',
+  url: '/manage',
+  icon: 'sliders',
+  children: [{
+    name: '代理人设置',
+    key: '/manage/agent',
+    url: '/manage/agent',
+  }, {
+    name: '工作组管理',
+    key: '/manage/workgroup',
+    url: '/manage/workgroup',
+  }, {
+    name: '流程部署管理',
+    key: '/manage/process',
+    url: '/manage/process',
+  }, {
+    name: '流程设计',
+    key: '/manage/model',
+    url: '/manage/model',
+  }],
+}, {
+  name: '模板管理',
+  key: '/template',
+  url: '/template',
+  icon: 'form',
+  children: [{
+    name: '创建模板',
+    key: '/template/detail',
+    url: '/template/detail/create/new',
+  }, {
+    name: '模板列表',
+    key: '/template/list',
+    url: '/template/list',
+  }],
+}, {
+  name: '系统管理',
+  key: '/system',
+  url: '/system',
+  icon: 'control',
+  children: [{
+    name: '部门管理',
+    key: '/system/department',
+    url: '/system/department/tree',
+  }, {
+    name: '用户管理',
+    key: '/system/user',
+    url: '/system/user',
+  }, {
+    name: '管理员设置',
+    key: '/system/admin',
+    url: '/system/admin',
+  }],
+}];
